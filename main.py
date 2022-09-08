@@ -21,6 +21,7 @@ class App(ck.CTk):
         super().__init__(*args, **kwargs)
 
         self.title("PyWallet")
+        self.resizable(False, False)
 
         screenHeight = self.winfo_screenheight()
         screenWidth = self.winfo_screenwidth()
